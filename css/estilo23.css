@@ -1,0 +1,30 @@
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.gris {
+    background-color: gray;
+    color: white;
+    padding: 30px 30px 20px;
+  margin-bottom: 25px;
+
+}
+.beige{
+    background-color: beige;
+    padding: 20px 30px
+}
+.rosa {
+    background-color: rgb(245, 76, 245);
+}
+.blanco{
+    font-style: italic;
+    background-color: white;
+}
+.negro{
+    font-size: 15px;
+    border: 2px solid green;
+    font-family: Impact, sans-serif;
+}

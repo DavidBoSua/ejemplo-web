@@ -1,0 +1,65 @@
+header{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+}
+thead{
+    background-color: black;
+    color:white;
+}
+.hora { 
+   font-weight: bold;
+    background-color: black;
+    color:white;
+
+}
+.ipe {
+    background-color: orange;
+}
+.sasp {
+    background-color: yellow;
+}  
+.lmsgi {
+    background-color: green;
+}
+.ipcgs {
+    background-color: blue;
+}
+.par {
+    background-color: red;
+}
+.iso {
+    background-color: purple;
+}
+.gbd {
+    background-color: pink;
+}
+.fh {
+    background-color: brown;
+}
+.pimas {
+    background-color: gray;
+}
+.dasp {
+    background-color: lightblue;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

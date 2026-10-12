@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mi primera página web</h1>
+            <h2>Menú</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="horario.html">Horario</a>
+                <a href="formulario.html">Formulario</a>
+                <a href="ejercicios.html">Ejercicios</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Formulario</h1>
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    </p>
+                    <p>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                    </p>
+                    <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    </p>
+                    <p>
+                    <label for="DNI">DNI:</label>
+                    <input type="text" id="DNI" name="DNI">
+                    </p>
+                    <p>
+                    <label for="Información adicional">Información adicional:</label>
+                    <textarea id="Información adicional" name="Información adicional"></textarea>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos adicionales</legend>
+                    <p>
+                    Género:
+                    </p>
+                    <p>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    </p>
+                    <p>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label>
+                    </p>
+                    <p>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label>
+                    </p>
+                    <p>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                    </p>
+                    <p>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Gustos personales</legend>
+                    <p>
+                    <label for="color">Color favorito:</label>
+                    <input type="color" id="color" name="color">
+                    </p>
+                    <p>
+                    <label for="comida favorita">Comida favorita:</label>
+                    <input type="text" id="comida favorita" name="comida favorita">
+                    </p>
+                </fieldset>
+            </form>
+            <br />
+            <br />
+        </main>
+        <footer>
+            <p>CIFP Virgen de Gracia</p>
+            <p>
+                Contacto:
+                <a href="mailto:davidbonillo005@gmail.com">davidbonillo005@gmail.com</a>
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+
+.celda1{
+    border: 3px solid blue;
+    padding: 7px;
+    
+}
+.tabla1{
+    border: 3px solid blue;
+    border-collapse: separate;
+    width: 25%;
+    border-color: blue;
+   
+}
+.tabla2{
+   
+    border-collapse: collapse;
+    width: 30%;
+    
+   
+}
+.celda2,.celda21{
+    border: 3px solid orange;
+    padding: 7px;
+    text-align: center;
+}
+.celda2{
+    background-color: rgba(83, 78, 78, 0.234);
+}
+.celda21{
+    background-color: rgb(45, 185, 45);
+}

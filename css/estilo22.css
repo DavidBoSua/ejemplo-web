@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.horiz{
+    display: flex;
+    background-color: burlywood;
+    width: 100%;
+}
+.opciones {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.opciones:hover{
+    background-color: red;
+}
+body{
+    border: 2px solid blue
+    
+}
+.vert{
+    background-color: green;
+    width: 10%;
+
+}
